@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+}
+#logo{
+    background-color: #0A91AB;
+    
+}
+img{
+    display: block;
+    margin: auto;
+    width: 100px;
+    padding: 20px;
+}
+#menu{
+    background-color: #FFC045;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#button{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+}
