@@ -17,9 +17,10 @@ img{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
+    position:sticky;
+    
 }
-#button{
+#menubutton{
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -29,10 +30,68 @@ img{
     font-size: 14px;
     font-weight: bold;
     transition: 0.3s;
+    position:sticky;
+    top: 0;
 }
-#button:hover{
+#menubutton:hover{
     color: #0A91AB;
     font-size: 18px;
     transition: 0.3s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#sectiontitle{
+    color:#0A91AB;
+    padding-left: 2%;
+}
+#videogamelist{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+#videogame{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 1%;
+    padding-bottom: 2%;
+    border: #FFC045;
+    border-style: dotted;
+    border-radius: 15px;
+    border-width: 2px;
+    width: 31%;
+    height: 70%;
+}
+#gameimage{
+    padding: 0;
+    margin: 0%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    width: 100%;
+}
+#gametitle{
+    color: #FFC045;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 0%;
+    font-size: 18px;
+    font-weight:bold
+}
+#gamedescription{
+    margin: 2%;
+    padding: 0%;
+    overflow-y:hidden;
+    text-align: justify;
     
+}
+#button{
+    display:flexbox;
+    align-self: flex-end;
+    background-color: #FFC045;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+
 }
