@@ -124,7 +124,7 @@ aside{
 .verticalflex{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: st;
 }
 #trick{
     display: flex;
@@ -140,12 +140,32 @@ aside{
 }
 #newssection{
     width: 75%;
-    height: 500px;
 }
-#newslist{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
-    align-content: stretch;
+#news{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 1%;
+    border: #FFC045;
+    border-style: dotted;
+    border-radius: 15px;
+    border-width: 2px;
+    width: 50%;
+    height: 70%;
+}
+#bar{
+    height: 5px;
+    width: 98%;
+    margin: 1%;
+    background-color: #FFC045;
+    border: 0px;
+}
+#newstitle{
+    text-decoration: none;
+    color: #FFC045;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 0%;
+    font-size: 18px;
+    font-weight:bold;
+    
 }
