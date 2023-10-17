@@ -1,15 +1,23 @@
 body{
     margin: 0px;
 }
+a, p{
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+}
 #logo{
     background-color: #0A91AB;
-    
 }
 img{
     display: block;
     margin: auto;
     width: 100px;
     padding: 20px;
+}
+.basetext{
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding-top: 5px;
+    font-weight:bold;
 }
 #menu{
     background-color: #FFC045;
@@ -18,7 +26,7 @@ img{
     justify-content: center;
     align-items: center;
     position:sticky;
-    
+    top: 0;
 }
 #menubutton{
     text-align: center;
@@ -29,9 +37,9 @@ img{
     font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
     transition: 0.3s;
-    position:sticky;
-    top: 0;
 }
 #menubutton:hover{
     color: #0A91AB;
@@ -42,9 +50,13 @@ img{
 }
 #sectiontitle{
     color:#0A91AB;
-    padding-left: 2%;
+    font-size: 22px;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
-#videogamelist{
+#itemlist{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
@@ -55,7 +67,6 @@ img{
     margin: 0px;
     padding: 0px;
     margin-bottom: 1%;
-    padding-bottom: 2%;
     border: #FFC045;
     border-style: dotted;
     border-radius: 15px;
@@ -71,6 +82,7 @@ img{
     width: 100%;
 }
 #gametitle{
+    text-decoration: none;
     color: #FFC045;
     margin-top: 3%;
     margin-left: 2%;
@@ -86,12 +98,54 @@ img{
     
 }
 #button{
-    display:flexbox;
-    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+#buttontext{
+    padding: 10px 20px;
     background-color: #FFC045;
-    width: 80px;
-    height: 30px;
-    text-align: center;
-    border-radius: 4px;
-
+    color:black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+aside{
+    margin: 10px;
+}
+#trickslist{
+    background-color: #0A90AB25;
+    width: 25%;
+    height: 95%;
+    border-style: dotted;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: black;
+}
+.verticalflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#trick{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+}
+#horizontalflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+#newssection{
+    width: 75%;
+    height: 500px;
+}
+#newslist{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-content: stretch;
 }
