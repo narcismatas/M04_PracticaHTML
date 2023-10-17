@@ -47,6 +47,7 @@ img{
     transition: 0.3s;
     padding-top: 10px;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 #sectiontitle{
     color:#0A91AB;
@@ -88,14 +89,20 @@ img{
     margin-left: 2%;
     margin-bottom: 0%;
     font-size: 18px;
-    font-weight:bold
+    font-weight:bold;
+    transition: 0.3s;
+}
+#gametitle:hover{
+    text-decoration: underline;
+    color: black;
+    transition: 0.3s;
+    cursor:pointer;
 }
 #gamedescription{
     margin: 2%;
     padding: 0%;
     overflow-y:hidden;
     text-align: justify;
-    
 }
 #button{
     display: flex;
@@ -108,6 +115,15 @@ img{
     color:black;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+#buttontext:hover{
+    color: white;
+    font-weight: bolder;
+    transition: 0.2s;
+    cursor:pointer;
 }
 aside{
     margin: 10px;
@@ -124,13 +140,22 @@ aside{
 .verticalflex{
     display: flex;
     flex-direction: column;
-    align-items: st;
+    align-items: center;
 }
 #trick{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 6%;
+}
+#tricktitle{
+    text-decoration: none;
+    color: #FFC045;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 0%;
+    font-size: 18px;
+    font-weight:bold;
 }
 #horizontalflex{
     display: flex;
@@ -149,8 +174,11 @@ aside{
     border-style: dotted;
     border-radius: 15px;
     border-width: 2px;
-    width: 50%;
-    height: 70%;
+    width: 45%;
+    height: 95%;
+}
+#date{
+    padding-left: 2%;
 }
 #bar{
     height: 5px;
@@ -162,10 +190,30 @@ aside{
 #newstitle{
     text-decoration: none;
     color: #FFC045;
-    margin-top: 3%;
-    margin-left: 2%;
+    margin-top: 4%;
     margin-bottom: 0%;
     font-size: 18px;
-    font-weight:bold;
-    
+    font-weight:bold; 
+    text-align: center;
+}
+#newstitle:hover{
+    text-decoration: underline;
+    color: black;
+    transition: 0.3s;
+    cursor:pointer;
+}
+#newsimage{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#newsbuttontext{
+    padding: 10px 20px;
+    background-color: #FFC045;
+    color:black;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
 }
