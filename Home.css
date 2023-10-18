@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Maven+Pro:wght@400;700&display=swap&#39;');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&family=Maven+Pro:wght@400;700&display=swap&#39;');
 body{
     margin: 0px;
 }
@@ -126,12 +128,12 @@ img{
     cursor:pointer;
 }
 aside{
-    margin: 10px;
+    margin: 1%;
 }
 #trickslist{
     background-color: #0A90AB25;
     width: 25%;
-    height: 95%;
+    height: auto;
     border-style: dotted;
     border-width: 3px;
     border-radius: 15px;
@@ -175,7 +177,7 @@ aside{
     border-radius: 15px;
     border-width: 2px;
     width: 45%;
-    height: 95%;
+    height: fit-content;
 }
 #date{
     padding-left: 2%;
@@ -195,6 +197,7 @@ aside{
     font-size: 18px;
     font-weight:bold; 
     text-align: center;
+    transition: 0.3s;
 }
 #newstitle:hover{
     text-decoration: underline;
@@ -214,6 +217,64 @@ aside{
     background-color: #FFC045;
     color:black;
     text-decoration: none;
+    position:relative;
+    top: 0px;
     border-radius: 5px;
-    position: relative;
+    z-index: 1;
+}
+#ranking{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#usericon{
+    width: 50%;
+    border-radius: 100%;
+}
+#username{
+    text-decoration: none;
+    color: #FFC045;
+    margin-bottom: 0%;
+    font-size: 18px;
+    font-weight:bold;
+}
+#ranking p{
+    font-weight: 700;
+}
+#contactinfo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer{
+    background-color: #8A8070;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p{
+    padding: 10px;
+    margin: 0px;
+}
+footer a{
+    margin: 5%;
+    text-decoration: none;
+    color: black;
+}
+#direction{
+    flex-direction: column;
+    align-items: end;
+    font-style: italic;
+    margin-top: 6%;
+    margin-right: 2%;
+    padding: 0%;
+    width: 100%;
+    font-size: 14px;
+    overflow-y:auto;
+    text-align: right;
+}
+#copyright{
+    font-size: 14px;
 }
